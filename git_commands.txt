@@ -1,0 +1,115 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. mkdir git-assignment
+Creates a new project directory.
+
+2. cd git-assignment
+Navigates into the project directory.
+
+3. New-Item index.html
+Creates the index.html file.
+
+4. New-Item about.html
+Creates the about.html file.
+
+5. git init
+Initializes a new local Git repository.
+
+6. git branch -M main
+Renames the current branch to main.
+
+7. git config --global user.name "vanshikaamritavishal"
+Configures the Git username.
+
+8. git config --global user.email "vanshikaamritavishal@gmail.com"
+Configures the Git email address.
+
+9. git add .
+Stages all project files for committing.
+
+10. git add about.html
+Stages the modified about.html file.
+
+11. git commit -m "Initial project setup"
+Creates the initial project commit.
+
+12. git commit -m "Update about page content"
+Records modifications to the about page.
+
+13. git branch feature
+Creates a new branch named feature.
+
+14. git switch feature
+Switches to the feature branch.
+
+15. git switch main
+Switches back to the main branch.
+
+16. git merge --no-ff feature -m "Merge feature branch into main"
+Merges feature into main with a separate merge commit.
+
+17. git log --oneline --graph --all
+Displays the commit history of all branches.
+
+18. New-Item test.log
+Creates a sample log file for testing .gitignore.
+
+19. New-Item -ItemType Directory temp
+Creates a temporary directory.
+
+20. New-Item temp/test.txt
+Creates a sample file inside the temporary directory.
+
+21. git status
+Displays the current repository status.
+
+22. git check-ignore -v test.log temp/test.txt
+Verifies which .gitignore rules apply to the specified files.
+
+23. git add .gitignore
+Stages the .gitignore file.
+
+24. git commit -m "Add gitignore configuration"
+Commits the ignore configuration.
+
+25. New-Item extra.txt
+Creates an additional file to demonstrate Git revert.
+
+26. git add extra.txt
+Stages the additional file.
+
+27. git commit -m "Add extra demonstration file"
+Creates an additional commit.
+
+28. git revert --no-edit HEAD
+Reverses the latest commit while preserving repository history.
+
+29. git log --oneline -6
+Displays the latest six commits.
+
+30. Test-Path extra.txt
+Checks whether extra.txt exists after the revert operation.
+
+31. git remote add origin REPOSITORY_URL
+Connects the local repository to the GitHub remote repository.
+
+32. git push -u origin main
+Pushes the main branch to GitHub and establishes upstream tracking.
+
+33. git push -u origin feature
+Pushes the feature branch to GitHub.
+
+34. git remote -v
+Displays the configured remote repository URLs.
+
+35. git branch -a
+Displays local and remote branches.
+
+36. git add git_commands.txt
+Stages the Git command documentation file.
+
+37. git commit -m "Add Git commands documentation"
+Commits the command documentation file.
+
+38. git push origin main
+Pushes the latest main branch changes to GitHub.
